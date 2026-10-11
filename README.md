@@ -11,17 +11,16 @@ A Python script that reads a video, draws shapes and text on every frame using O
 ## Setup
 ```bash
 python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      
 pip install opencv-python
 ```
 
 ## Usage
 Place a video named `input.mp4` in the project folder, then run:
 ```bash
-python main_themed.py                  # default theme -> output_default.mp4
-python main_themed.py --theme red      # red theme     -> output_red.mp4
-python main_themed.py --theme purple   # purple theme  -> output_purple.mp4
+python main_themed.py                 
+python main_themed.py --theme red      
+python main_themed.py --theme purple   
 ```
 Use `--input <file>` to process a different video.
 
